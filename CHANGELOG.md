@@ -5,6 +5,30 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0](https://github.com/mcHammerhart/bookstack-mcp-server/compare/v2.1.1...v3.0.0) (2026-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to Bun, fix upload/auth/logging defects, add live test suite
+
+### Added
+
+* migrate to Bun, fix upload/auth/logging defects, add live test suite ([4476d87](https://github.com/mcHammerhart/bookstack-mcp-server/commit/4476d8786e8e5b71085cea644b051d3d966bf0f3))
+* **pages:** partial page editing without resending whole pages ([402782f](https://github.com/mcHammerhart/bookstack-mcp-server/commit/402782f9aa6643e4cfbb88e4bad84457ab0b5248))
+* **pages:** partial page editing without resending whole pages ([#22](https://github.com/mcHammerhart/bookstack-mcp-server/issues/22)) ([040957e](https://github.com/mcHammerhart/bookstack-mcp-server/commit/040957e7a90a31abb9ac7a7acee9641be7009571))
+* **release:** automate versioning and publishing with release-please + OIDC ([a4a3ca3](https://github.com/mcHammerhart/bookstack-mcp-server/commit/a4a3ca3ee26f70f6d64b3fb55319ac639368b422))
+
+
+### Fixed
+
+* **pages:** edit the stored markdown even when editor says wysiwyg ([#26](https://github.com/mcHammerhart/bookstack-mcp-server/issues/26)) ([01d438d](https://github.com/mcHammerhart/bookstack-mcp-server/commit/01d438d922c038ad8a72b4f04dcd721365a6429a))
+* **pages:** harden partial-edit safety ([48e7eb6](https://github.com/mcHammerhart/bookstack-mcp-server/commit/48e7eb6c985fb83a71b76bacae48ad1644e47732))
+* **pages:** retain chained edit verification ([89e87e3](https://github.com/mcHammerhart/bookstack-mcp-server/commit/89e87e3c16e02b1e690edd2ad9a9adb54691ca6f))
+* **pages:** verify final partial edit state ([545bbf6](https://github.com/mcHammerhart/bookstack-mcp-server/commit/545bbf6df35aba0559ab1a04eeedc15e94cbb104))
+* **pages:** verify transformed partial edits ([b51e925](https://github.com/mcHammerhart/bookstack-mcp-server/commit/b51e92515a807be57a5e9d9ae673c3e82463cdc0))
+* **release:** stop failing the workflow on a direct push to main ([6afe258](https://github.com/mcHammerhart/bookstack-mcp-server/commit/6afe2580f715562ac141e9f67b7cc856fb8db617))
+
 ## [2.1.1](https://github.com/pnocera/bookstack-mcp-server/compare/v2.1.0...v2.1.1) (2026-10-25)
 
 
